@@ -1,0 +1,38 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+.myenv/
+
+# Django specific
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# Environment variables
+.env
+
+# Pytest
+.pytest_cache/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Pip files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Other
+*.bak
+*.tmp
