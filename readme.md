@@ -28,7 +28,6 @@ A Django-based REST API for managing books, user authentication, and MongoDB int
    cd drf-books-api
 
 2. **Create a Virtual Environment**:
-
     ```bash
     python -m venv .myenv
     source .myenv/bin/activate  # Linux/macOS
@@ -36,27 +35,23 @@ A Django-based REST API for managing books, user authentication, and MongoDB int
     ```
 
 3. **Install Dependencies**:
-
   ```bash
-  pip install -r requirements.txt
+    pip install -r requirements.txt
   ```
 4. **Set Up Environment Variables: Create a .env file in the project root with the following variables**:
-
   ```plaintext
-  DB_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/<database>?retryWrites=true&w=majority
-  DB_NAME=books_database
-  SECRET_KEY=your_secret_key
+    DB_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/<database>?retryWrites=true&w=majority
+    DB_NAME=books_database
+    SECRET_KEY=your_secret_key
   ```
 5. **Run Migrations**:
-
   ```bash
-  python manage.py makemigrations
-  python manage.py migrate
+    python manage.py makemigrations
+    python manage.py migrate
   ```
 6. **Start the Server**:
-
   ```bash
-  python manage.py runserver
+    python manage.py runserver
   ```
 
 # API Endpoints
